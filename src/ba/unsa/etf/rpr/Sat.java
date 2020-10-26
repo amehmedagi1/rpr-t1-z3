@@ -22,7 +22,7 @@ public class Sat {
         if (minute==-1) { minute=59; sati--; }
         if (sati==-1) sati=23;
     }
-   public void PomjeriZa(int pomak) {
+   public void pomjeriZa(int pomak) {
         if(pomak > 0){
             for(int i = 0;i < pomak; i++){
                 sljedeci();
@@ -34,6 +34,7 @@ public class Sat {
             }
 
         }
+        //getteri, onako kako je preporuceno, koristimo get umjesto daj
     }
     public int getSati(){
         return this.sati;

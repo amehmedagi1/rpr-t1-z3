@@ -8,7 +8,7 @@ public class Main {
         sat.ispisi();
         sat.sljedeci();
         sat.ispisi();
-        sat.PomjeriZa(-48);
+        sat.pomjeriZa(-48);
         sat.ispisi();
         sat.postavi(0,0,0);
         sat.ispisi();
